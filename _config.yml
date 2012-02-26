@@ -1,0 +1,5 @@
+---
+auto: true
+permalink: /:categories/:title.html
+exclude: [Gemfile, Gemfile.lock]
+paginate: 5
