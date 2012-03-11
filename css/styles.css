@@ -22,7 +22,7 @@ body{width:100%;min-width:960px;}.container_16{margin-left:auto;margin-right:aut
 
 body {
 	font-family: Arial,sans-serif;
-	font-size: 13px;
+	font-size: 14px;
      line-height: 22px;
      text-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.75);
 	color:#3D3C3C;
@@ -61,7 +61,7 @@ h2 {
 h3 {
 	font-size:18px;
 } table h3 {
-	font-size:22px;
+	font-size:18px;
 	color:#FEFEFE;
 } .folio h3 {
 	font-size:19px;
@@ -104,6 +104,9 @@ a:hover, a:active, a:focus {
 ::-moz-selection { background: /*rb_color_accent*/#F3EDD9/*e*/; color: #000; text-shadow: none; }
 ::selection { background: /*rb_color_accent*/#F3EDD9/*e*/; color: #000; text-shadow: none; }
 
+p {
+  margin-bottom: 20px;
+}
 /*====================================
 
    Header
@@ -119,6 +122,9 @@ a:hover, a:active, a:focus {
 	width:100%;
 	min-width:960px;
 	position:relative;
+}
+#footer {
+        font-size: 13px;
 }
 #footer_top .container_16, #footer_bottom .container_16, #tagline .container_16, #top .container_16 {
 	width:940px;
@@ -242,7 +248,8 @@ a:hover, a:active, a:focus {
 	height:71px;
 	border-top:1px solid #000;
 	border-bottom:1px solid #DCDCDC;
-	margin-bottom:10px;
+	margin-top:-31px;
+	margin-bottom:40px;
 }
 #tagline h1 {
 	float:left;
@@ -295,6 +302,8 @@ a:hover, a:active, a:focus {
 
 /* Sliders area */
 #circlesSlider, #parallaxSlider, #fadingSlider {
+        margin-top: -30px;
+        margin-bottom: 30px;
 	overflow:hidden;
 	border-top:1px solid #000;
 }
@@ -783,6 +792,9 @@ hr.space {
 
 /* Content List */
 .contentList {
+  margin-left: 20px;
+  margin-top: -15px;
+  margin-bottom: 20px;
 }
 .contentList li {
 	margin-left:30px;
@@ -794,7 +806,7 @@ hr.space {
 .contentList.arrow li {
      padding-left: 30px;
 	margin-left:0;
-     background: url(../images/li1.png) no-repeat left center transparent;
+     background: url(../images/li1.png) no-repeat left 8px transparent;
 }
 .contentList.circles li {
 	list-style-type:disc;
@@ -827,6 +839,19 @@ table ul li {
 	overflow:visible;
 	text-indent:0;
 	border-right:none;
+}
+.bigButton.people {
+     background: url(../images/icons/pic4.png) no-repeat 0 0 #F3EDD9;
+    border-radius: 3px;
+	border:1px solid #F3EDD9;
+     color: #000000;
+     font-family: 'Museo-500',sans-serif;
+     font-size: 17px;
+	 height:22px;
+     padding: 24px 20px 18px 90px;
+}
+.bigButton.people:hover {
+     background-color: #E9DDB1;
 }
 .bigButton a {
      background: /*rb_color_accent*/#F3EDD9/*e*/;
@@ -907,6 +932,10 @@ a[rel] {
      font-size: 12px;
      margin-bottom: 10px;
      margin-top: -3px;
+}
+
+.teamList p {
+  margin-left: 150px;
 }
 
 /*====================================
@@ -1849,6 +1878,7 @@ background: none repeat scroll 0 0 #FFFFFF;
 table {
 	width:100%;
 	border-collapse:separate;
+        margin-bottom: 20px;
 }
 
 th {
@@ -3145,7 +3175,7 @@ background: url("../images/projekktorTheme/start.png") no-repeat center center t
   padding: 15px;
   border-radius: 5px;
   vertical-align: top;
-  height: 330px;
+  height: 385px;
   position: relative;
 }
 
