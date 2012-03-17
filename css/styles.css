@@ -1918,12 +1918,19 @@ thead span.sub {
 	padding-left:1px;
 }
 
+td h4 {
+  margin: 0;
+}
+
 td {
 	border-right:1px solid #D4D1C9;
 	border-bottom:1px solid #D4D1C9;
 	border-top:none;
 	background:#FFF;
 	padding:20px;
+}
+td.ident {
+  padding-left: 40px;
 }
 td:first-child {
 	border-left:1px solid #D4D1C9;
