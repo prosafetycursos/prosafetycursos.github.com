@@ -1890,10 +1890,10 @@ th:nth-child(even){
 	background:#1F1F1F;
 }
 th:first-child {
-	border-radius:3px 0 0 0;
+	border-top-left-radius:3px;
 }
 th:last-child {
-	border-radius:0 3px 0 0;
+	border-top-right-radius: 3px;
 }
 thead h3 {
 	float:left;
