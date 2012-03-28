@@ -21,7 +21,7 @@ body{width:100%;min-width:960px;}.container_16{margin-left:auto;margin-right:aut
 
 body {
 	font-family: Arial,sans-serif;
-	font-size: 14px;
+	font-size: 13px;
      line-height: 22px;
      text-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.75);
 	color:#3D3C3C;
@@ -3187,7 +3187,7 @@ background: url("../images/projekktorTheme/start.png") no-repeat center center t
   padding: 15px;
   border-radius: 5px;
   vertical-align: top;
-  height: 325px;
+  height: 260px;
   position: relative;
 }
 
