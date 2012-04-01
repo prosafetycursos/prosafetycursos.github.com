@@ -2430,6 +2430,7 @@ input:focus {
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
+li.clearfix {clear: both;}
 .children:before, .children:after { content: ""; display: table; }
 .children:after { clear: both; }
 .children { zoom: 1; }
