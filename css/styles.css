@@ -203,10 +203,20 @@ p {
 	-webkit-box-sizing:border-box;
 	z-index:9999;
 }
+#top ul ul#cursos {
+  width: 225px;
+}
 #top ul ul li{
 	float:none;
 	display:block;
 	margin:5px 0;
+        color: #CCC;
+        font-weight: bold;
+        text-shadow: none;
+}
+#top ul ul li.ident{
+        padding-left: 15px;
+        font-size: 11px !important;
 }
 #top ul div {
 	position:relative;
