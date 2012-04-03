@@ -2335,6 +2335,12 @@ input:focus {
 .socialList .vimeo:hover, .vimeo a:hover {
 	background-position:-32px -306px;
 }
+.socialList .tumblr, .tumblr a {
+	background-position:-48px -290px;
+}
+.socialList .tumblr:hover, .tumblr a:hover {
+	background-position:-48px -306px;
+}
 .socialList .stumbleupon, .stumbleupon a {
 	background-position:0 -356px;
 }
