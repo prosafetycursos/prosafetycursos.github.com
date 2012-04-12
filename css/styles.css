@@ -165,8 +165,8 @@ p {
 #top ul li a {
     border-radius: 3px;
      color: #222;
-     font-family: 'Vegur';
      font-size: 15px;
+     font-weight: bold;
     padding: 8px 18px;
      text-shadow: none;
 }
