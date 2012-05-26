@@ -41,6 +41,8 @@ h1 {
 } #tagline h1 {
 	font-size:25px;
 	color:#3F3F3F;
+  width: 650px;
+  line-height: 28px;
 }.homepage h1 {
 	font-size:49px;
 	color:#FFF;
@@ -283,6 +285,12 @@ p {
 #tagline h1 {
 	float:left;
 	margin-top:27px;
+}
+#tagline h1.twolines {
+  margin-top:12px;
+}
+#tagline h1.twolines.small {
+  font-size: 20px;
 }
 #tagline a {
 	float:right;
