@@ -293,6 +293,9 @@ p {
 #tagline h1.twolines.small {
   font-size: 20px;
 }
+#tagline h1.twolines.very-small {
+  font-size: 16px;
+}
 #tagline a {
 	float:right;
 }
