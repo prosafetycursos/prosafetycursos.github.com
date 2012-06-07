@@ -42,7 +42,7 @@ h1 {
 } #tagline h1 {
 	font-size:25px;
 	color:#3F3F3F;
-  width: 650px;
+  max-width: 650px;
   line-height: 28px;
 }.homepage h1 {
 	font-size:49px;
