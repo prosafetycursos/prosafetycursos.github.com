@@ -3250,7 +3250,8 @@ background: url("../images/projekktorTheme/start.png") no-repeat center center t
 }
 ul#parceiros li{
   display: inline-block;
+  margin-bottom: 10px;
 }
 ul#parceiros img{
-  height: 130px;
+  width: 220px;
 }
